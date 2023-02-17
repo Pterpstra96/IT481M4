@@ -47,20 +47,20 @@ namespace IT481_Terpstra_Module4
             Generate1000itemSet();
             Generate10itemSet();
 
-            /* SortingOperationsData3();
+             SortingOperationsData3();
              SortingOperationsData1();
              SortingOperationsData2();
-             */
+             
             int ten = valueList10.Count();
             int thous = valueList1000.Count();
             int tenThous = valueList10000.Count();
 
-            Quicksort(valueList10000, 0, tenThous - 1);
+            /*Quicksort(valueList10000, 0, tenThous - 1);
            lview3.ItemsSource = valueList10000;
             Quicksort(valueList1000, 0, thous - 1);
             lview2.ItemsSource = valueList1000;
             Quicksort(valueList10, 0, ten - 1);
-            lview1.ItemsSource = valueList10;
+            lview1.ItemsSource = valueList10;*/
 
             countBox1.Text = Convert.ToString(ten);
             countBox2.Text = Convert.ToString(thous);
